@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0px;
+}
+
+* { box-sizing: border-box; cursor: default; }
+
+.inicio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color:#0F52BA;
+    color: white;
+}
+
+.nome {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 40px;
+    margin-left: 62px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.nome2 {
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+
+.carrinho {    
+    margin-left: 1000px;     
+}
+
+.carrinho button {
+    padding: 20px;
+    padding-right: 30px;
+    border-radius: 8px;
+    border: none;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.carrinho img {
+    margin-right: 16px;
+}
+
+.mae {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.produtos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.produtos2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.slogan1 img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.descricao {
+    display: flex;
+    flex-direction: row;
+}
